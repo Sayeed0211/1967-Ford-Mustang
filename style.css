@@ -47,7 +47,7 @@ button:hover{
 }
 .container{
     margin: auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -58,13 +58,13 @@ button:hover{
     
 }
  .left >.heading {
-    font-size: 3rem;
+    font-size: 4rem;
     padding:20px;
     
 }
 .content {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 .right{
     border: none;
