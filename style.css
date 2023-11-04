@@ -53,40 +53,51 @@ button:hover {
 }
 
 .container {
-    margin: auto;
-    width: 90%;
+    margin: 0 auto; 
+    max-width: 1200px; 
+    padding: 20px; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    background-color: #f7f7f7; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
 }
 
 .left {
-    color: #ecf0f1;
-    width: 30%;
+    flex: 1; 
+    color: #333; 
 }
 
-.left > .heading {
-    font-size: 4rem;
-    padding: 20px;
+
+.left .heading {
+    font-size: 2.5rem; 
+    padding: 10px;
 }
 
 .content {
-    width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.6rem; 
 }
 
 .right {
-    border: none;
-    width: 60%;
+    flex: 1; 
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .btn {
-    color: black;
-    width: 15%;
-    font-size: 2rem;
-    border-radius: 50px;
-    background-color: silver;
+    color: #fff;
+    width: 100%; 
+    font-size: 1.8rem;
+    border-radius: 5px;
+    background-color: #007bff; 
     text-align: center;
+    padding: 10px; 
+    transition: background-color 0.3s ease; 
+}
+.btn:hover {
+    background-color: #0056b3; 
 }
 
 .specs {
